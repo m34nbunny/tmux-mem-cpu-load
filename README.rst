@@ -78,21 +78,15 @@ Build
 Install
 -------
 
+Recomended to install this as a binary and reference in tmux config below. Current upstream fork 
+will try and build / install on every load of your tmux which causes the binary to not load on 
+first try. 
+
 ::
 
   su -
   make install
   logout
-
-Build and Install Using tpm_
------------------------------
-
-Include the plugin in your ``.tmux.conf``, the same file you'll set the
-configuration in, below.
-
-::
-
-  set -g @plugin 'thewtex/tmux-mem-cpu-load'
 
 Install with Package Managers
 -----------------------------
